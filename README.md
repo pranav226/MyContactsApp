@@ -1,9 +1,8 @@
 # MyContactsApp
 
-Description
+
+
 Stack framework supporting expand and collapse state of view.
-
-
 
 * Tools Required - Xcode
 * Languages Used - Swift
@@ -11,8 +10,10 @@ Stack framework supporting expand and collapse state of view.
 
 Open MyContacts.xcodeproj in Xcode
 
+## Description
+
 This  app shows your contacts with view having 2 states
-1. collapsed State :  Consist of Contact
+1. collapsed State :  Consisting of Contact name
 2. Expanded State : when user click on any contact tab in collasped view then expanded view opens up which shows the following details and functiionality about related to
 expanded contact 
 Details                               Functionality
