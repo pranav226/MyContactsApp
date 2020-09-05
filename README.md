@@ -24,3 +24,5 @@ Details                               Functionality
 
 On clicking on collapse view -> view expands and previous expanded view collapses
 On cliking of expanded view again -> view collapses
+
+UI test cases consisting of checking expansion and collapse logic.
