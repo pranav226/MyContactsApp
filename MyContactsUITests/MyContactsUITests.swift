@@ -40,4 +40,23 @@ class MyContactsUITests: XCTestCase {
             }
         }
     }
+    
+    func testExpansionCollapseLogic(){
+        let app = XCUIApplication()
+        app.launch()
+        let checkBtn = app.buttons.matching(identifier: "checkContactBtn").firstMatch
+        checkBtn.tap()
+        sleep(2)
+        let cell = app.tables.cells["cell1"]
+        if(cell.exists){
+            cell.tap()
+        }
+        let phoneNo = app.staticTexts.matching(identifier: "phoneNo").firstMatch
+        XCTAssert(phoneNo.exists, "Contact did not get expanded")
+        phoneNo.tap()
+        sleep(2)
+        XCTAssert(!phoneNo.exists, "Contact did not get collapse")
+        app.terminate()
+    }
+    
 }

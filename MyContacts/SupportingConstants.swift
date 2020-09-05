@@ -1,0 +1,11 @@
+//
+//  SupportingConstants.swift
+//  MyContacts
+//
+//  Created by Pranav Jain on 05/09/20.
+//  Copyright © 2020 Pranav Jain. All rights reserved.
+//
+
+import Foundation
+
+let contactDict = [["name": "Person1","phoneNo": "8912345678","landlineNo": "21435215","ringtone": "Tune1","email": "person1@gmail.com"],["name": "Person2","phoneNo": "8812345678","landlineNo": "22435215","ringtone": "Tune1","email": "person1@gmail.com"],["name": "Person3","phoneNo": "8712345678","landlineNo": "23435215","ringtone": "Tune3","email": "person3@gmail.com"],["name": "Person4","phoneNo": "8612345678","landlineNo": "24435215","ringtone": "Tune4","email": "person4@gmail.com"],["name": "Person5","phoneNo": "8512345678","landlineNo": "25435215","ringtone": "Tune1","email": "person5@gmail.com"],["name": "Person6","phoneNo": "8412345678","landlineNo": "26435215","ringtone": "Tune6","email": "person6@gmail.com"],["name": "Person7","phoneNo": "8812345678","landlineNo": "62435215","ringtone": "Tune2","email": "person7@gmail.com"],["name": "Person8","phoneNo": "8312345678","landlineNo": "22535215","ringtone": "Tune1","email": "person9@gmail.com"],["name": "Person9","phoneNo": "7812345678","landlineNo": "224135215","ringtone": "Tune1","email": "person9@gmail.com"],["name": "Person10","phoneNo": "8412345678","landlineNo": "26435215","ringtone": "Tune6","email": "person6@gmail.com"],["name": "Person11","phoneNo": "8812345678","landlineNo": "62435215","ringtone": "Tune2","email": "person7@gmail.com"],["name": "Person12","phoneNo": "8312345678","landlineNo": "22535215","ringtone": "Tune1","email": "person9@gmail.com"],["name": "Person12","phoneNo": "7812345678","landlineNo": "224135215","ringtone": "Tune1","email": "person9@gmail.com"],["name": "Person14","phoneNo": "8412345678","landlineNo": "26435215","ringtone": "Tune6","email": "person6@gmail.com"],["name": "Person15","phoneNo": "8812345678","landlineNo": "62435215","ringtone": "Tune2","email": "person7@gmail.com"],["name": "Person16","phoneNo": "8312345678","landlineNo": "22535215","ringtone": "Tune1","email": "person9@gmail.com"],["name": "Person17","phoneNo": "7812345678","landlineNo": "224135215","ringtone": "Tune1","email": "person9@gmail.com"]]
