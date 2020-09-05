@@ -56,14 +56,13 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="140"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuR-LH-VKn">
-                                        <rect key="frame" x="144" y="56" width="126.5" height="28"/>
+                                        <rect key="frame" x="144" y="55" width="126.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmv-ER-d18">
-                                        <rect key="frame" x="28" y="36" width="34" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmv-ER-d18">
+                                        <rect key="frame" x="28" y="55" width="34" height="30"/>
                                         <state key="normal" title="Back"/>
                                         <connections>
                                             <action selector="backBtnTapped:" destination="a6S-Yx-cCf" eventType="touchUpInside" id="nMG-Jq-zYQ"/>
@@ -72,9 +71,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="lmv-ER-d18" firstAttribute="bottom" secondItem="KuR-LH-VKn" secondAttribute="bottom" id="3OY-T9-Ggt"/>
+                                    <constraint firstItem="lmv-ER-d18" firstAttribute="leading" secondItem="rnm-4a-dzn" secondAttribute="leading" constant="28" id="96J-5c-A4j"/>
                                     <constraint firstItem="KuR-LH-VKn" firstAttribute="centerX" secondItem="rnm-4a-dzn" secondAttribute="centerX" id="LNQ-K4-BzH"/>
                                     <constraint firstAttribute="height" constant="140" id="bH4-Cf-akf"/>
                                     <constraint firstItem="KuR-LH-VKn" firstAttribute="centerY" secondItem="rnm-4a-dzn" secondAttribute="centerY" id="nj0-zX-MWg"/>
+                                    <constraint firstItem="lmv-ER-d18" firstAttribute="top" secondItem="KuR-LH-VKn" secondAttribute="top" id="rHz-IP-0GT"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Ma-XR-Bqf">
